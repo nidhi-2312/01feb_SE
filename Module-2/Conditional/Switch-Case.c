@@ -2,24 +2,24 @@
 int main()
 {
     int a, b;
-    int ch;
+    char ch;
     printf("\n1.Add\n2.Sub\n3.Div\n4.Mul");
-    printf("\nEnter your choice:");
-    scanf("%d",&ch);
+    // printf("\nEnter your choice:");
+    // scanf("%c",&ch);
     printf("Enter the value of a and b:");
-    scanf("%d%d", &a, &b);
+    scanf("%d%c%d", &a,&ch, &b);
     switch (ch)
     {
-    case 1:
+    case '+':
         printf("\nAdd is :%d", a+b);
         break;
-    case 2:
+    case '-':
         printf("\nSub is :%d", a-b);
         break;
-    case 3:
+    case '/':
         printf("\nDiv is :%d", a / b);
         break;
-    case 4:
+    case '*':
         printf("\nMul is :%d", a*b);
         break;
     default:
