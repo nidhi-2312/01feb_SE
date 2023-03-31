@@ -1,7 +1,7 @@
 #include<stdio.h>
 int pointer(int *ptr)
 {
-    return *ptr;
+    return ptr;
 }
 int main()
 {

@@ -10,7 +10,7 @@ long double fecto(long double no)
     // fecto() method call it self
     return  no * fecto(no-1);
     /*
-        for ex.
+        for ex. 5 * fecto(5 - 1);
     */
 }
 int main()
