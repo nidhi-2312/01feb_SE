@@ -1,0 +1,21 @@
+Defination:-
+1.Class is collection of data member and member function
+2.Class is blue-print of the object
+---------------------------------------
+As per structure define as it is
+
+how to define :
+class//keyword class_name
+{
+    //statments
+};//class body must be over|terminate
+-----------------------------------
+Rules:-
+Only Define data member(variable define inside the class) in class
+Not inisialize data member out of the function
+inisialize value only inside the function
+->inisialize min assign value to variable as shown below 
+int no=100;
+------------------------------------------
+class any time not occupie the memory
+Class get memory when object define of that class but that memory only of the object not class

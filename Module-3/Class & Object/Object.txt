@@ -1,0 +1,17 @@
+Defination:-
+Object is a instance of a class
+----------------------------------------
+Object occupie the memory
+there's multiple object of a class
+access data member or member function of class as per shown below
+object_name.datamember_name;
+object_name.memberfunction_name;
+----------------------------------------------
+How to define:-
+1.where class's body is over
+ex:class class_name{
+    //statments
+}object_name;
+2.In the main function
+ex: class_name object_name;
+------------------------------------------

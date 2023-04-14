@@ -1,0 +1,11 @@
+1.public
+    use everywhere
+    inside that class,inherite class,in main function
+
+2.Private(default)
+->private is default that's why you no need to define class takes automatically
+    use only inside the that class
+
+3.Protected
+    use only in that class or it's inherited class
+    
