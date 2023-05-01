@@ -1,0 +1,11 @@
+1. LEFT JOIN :-
+->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name LEFT JOIN table2ON 
+table1_name.column_name = table2.column_name;
+
+2.Right JOIN :-
+->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name Right JOIN table2ON 
+table1_name.column_name = table2.column_name;
+
+3.Inner JOIN :-
+->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name Inner JOIN table2ON 
+table1_name.column_name = table2.column_name;
