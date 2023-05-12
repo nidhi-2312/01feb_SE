@@ -4,7 +4,7 @@ Is use to store a query.
 DELIMITER //
 	
     CREATE PROCEDURE `procedure_name` (INOUT `variable_name` int)
-    AS
+   
     BEGIN 
     
     	SELECT * FROM `table_name` WHERE `column_name`= `variable_name`;

@@ -41,3 +41,15 @@ DDL:- Data Definition Language
 
 11.Add Foreign key:-
 ->ALTER TABLE `salary` ADD FOREIGN KEY (`column_name`) REFERENCES `REFERENCE_table_name` (`column_name`);
+
+12.Rename table:-
+->ALTER TABLE table_name RENAME TO new_table_name;
+
+13.Rename column:-
+->ALTER TABLE table_name CHANGE COLUMN old_column_name new_column_name data_type (size);
+
+14.Rename table and column:-
+->ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
+
+15.Change Data Type:-
+->ALTER TABLE table_name MODIFY COLUMN old_column_name data_type (size);

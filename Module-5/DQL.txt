@@ -25,15 +25,8 @@ DQL - Data Query Language
 6.Arrange the column in descending or ascending:-
 ->SELECT * FROM `table_name` ORDER BY `id` ASC|DESC;
 
-7.Join:-
-->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name LEFT JOIN table2 ON 
-table1_name.column_name = table2.column_name;
-
-->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name Right JOIN table2 ON 
-table1_name.column_name = table2.column_name;
-
-->SELECT table1_name.column_name, table2_name.column_name...FROM table1_name Inner JOIN table2 ON 
-table1_name.column_name = table2.column_name;
-
-8. Like clause:-
+7. Like clause:-
 ->SELECT * FROM `table_name` WHERE `column_name` LIKE 'value%';
+
+8. Where clause:-
+->SELECT * FROM `table_name` WHERE `column_name` = 'value';
