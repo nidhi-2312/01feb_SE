@@ -1,12 +1,12 @@
 DDL:- Data Definition Language
 1.Create database:-
-->Create database database_name
+->Create database `database_name`
 
 2.Create Table:-
 ->CREATE TABLE `table_name` 
 (
-    `column_name1` datatype (size),
-    `column_name2` datatype (size),
+    `column_name1` datatype (size) add PRIMARY KEY AUTO_INCREMENT,
+    `column_name2` datatype (size) not null,
     `column_namen` datatype (size),
 );
 
@@ -36,7 +36,7 @@ DDL:- Data Definition Language
 ->ALTER TABLE `table_name` ADD `column_name` data_type (size) AFTER|BEFORE `column_name`
 
 10.Add AUTO_INCREMENT:-
-->ALTER TABLE `employee` CHANGE `old_column_name` `new_column_name` data_type (size)  AUTO_INCREMENT;
+->ALTER TABLE `table_name` CHANGE `old_column_name` `new_column_name` data_type (size)  AUTO_INCREMENT;
     ->AUTO_INCREMENT column default value must be not_null 
 
 11.Add Foreign key:-
